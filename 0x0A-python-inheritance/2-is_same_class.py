@@ -1,9 +1,11 @@
 #!/usr/bin/python3
 """
-file: 2-is_same_class.py
-desc: Defines is_same_class function
-Date: 10 July 2023
+File: 2-is_same_clas.py
+Desc: This module contains one function; is_same_class
+Author: Waithaka (waithakan)
+Date Created: 10 July 2023
 """
+
 
 def is_same_class(obj, a_class):
     """
