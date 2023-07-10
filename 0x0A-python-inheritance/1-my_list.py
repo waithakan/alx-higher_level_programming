@@ -1,6 +1,8 @@
 #!/usr/bin/python3
 """
 Mylist class
+This file contains one class
+a parent class and sub class
 """
 class MyList(list):
     """
