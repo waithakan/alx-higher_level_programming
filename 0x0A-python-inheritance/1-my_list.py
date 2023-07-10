@@ -1,9 +1,9 @@
 #!/usr/bin/python3
 """
 File: 1-my_list.py
-Mylist class
-This file contains one class: Mylist
-
+Desc: This file contains one class; MyList
+Author: Issack (waithakan)
+Date Created: 10 July 2023
 """
 
 
@@ -18,4 +18,3 @@ class MyList(list):
         (ascending sort)
         """
         print(sorted(self))
-
