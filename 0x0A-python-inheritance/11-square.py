@@ -1,17 +1,18 @@
 #!/usr/bin/python3
-"""Defines a Square class that inherits from Rectangle class"""
-Rectangle = __import__('9-rectangle').Rectangle
+
+"""
+File: 101-add_attribute.py
+Desc: This module contains a single function defination
+Author: Waithaka (waithakan)
+Date Created: 10 July 2023
+"""
 
 
-class Square(Rectangle):
-    """Square class"""
-
-    def __init__(self, size):
-        """Initialize a new square.
-
-        Args:
-            size (int): The size of the new square.
-        """
-        self.integer_validator("size", size)
-        super().__init__(size, size)
-        self.__size = size
+def add_attribute(obj, att, value):
+    """
+    Adds a new attribute to an object if it’s possible.
+    """
+    if hasattr(obj, "__dict__"):
+        setattr(obj, att, value)
+    else:
+        raise TypeError("can't add new attribute")
