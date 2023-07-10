@@ -1,9 +1,12 @@
 #!/usr/bin/python3
 """
+File: 1-my_list.py
 Mylist class
-This file contains one class
-a parent class and sub class
+This file contains one class: Mylist
+
 """
+
+
 class MyList(list):
     """
     Represents a class MyList
