@@ -1,7 +1,18 @@
 #!/usr/bin/python3
-"""Defining is_kind_of_class function"""
+"""
+File: 3-is_kind_of_class.py
+Desc: This module contains one function;
+is_kind_of_class(obj, a_class)
+Author: Waithaka (waithakan)
+Date Created: 10 July 2023
+"""
 
 
 def is_kind_of_class(obj, a_class):
-    """returns true if object is an instance of object or class"""
-    return(isinstance(obj, a_class))
+    """
+    Returns True if the object is an instance of, or
+    if the object is an instance of a class that
+    inherited from, the specified class; otherwise
+    False
+    """
+    return isinstance(obj, a_class)
