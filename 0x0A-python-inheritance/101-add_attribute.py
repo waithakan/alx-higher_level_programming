@@ -1,5 +1,12 @@
 #!/usr/bin/python3
-"""Defining a function that adds attributes to objects."""
+
+"""
+File: 101-add_attribute.py
+Desc: This module contains a single function defination
+Author: waithaka (waithakan)
+Date Created: 10 July 2023
+"""
+
 
 def add_attribute(obj, att, value):
     """
