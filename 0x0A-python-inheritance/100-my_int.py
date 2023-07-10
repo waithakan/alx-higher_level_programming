@@ -1,5 +1,11 @@
 #!/usr/bin/python3
-"""Defining BaseGeometry class"""
+"""
+File: 100-my_int.py
+Desc: This module Defines a class MyInt that inherits from int
+Author: waithaka (waithakan)
+Date Created: 10 July 2023
+"""
+
 
 class MyInt(int):
     """
