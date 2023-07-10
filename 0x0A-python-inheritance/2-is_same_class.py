@@ -1,5 +1,9 @@
 #!/usr/bin/python3
-"""Defines is_same_class function"""
+"""
+file: 2-is_same_class.py
+desc: Defines is_same_class function
+Date: 10 July 2023
+"""
 
 def is_same_class(obj, a_class):
     """
