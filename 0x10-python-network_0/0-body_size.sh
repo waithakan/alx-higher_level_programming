@@ -1,3 +1,3 @@
 #!/bin/bash
-# takes in a URL, sends a GET request to the URL, and displays the body of the response
-curl -Lsf "$1"
+# Takes in a URL, sends a request to that URL, and displays the byte size of the HTTP response header
+curl -s "$1" | wc -c
