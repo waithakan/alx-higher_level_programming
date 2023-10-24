@@ -6,7 +6,7 @@ const filename = process.argv.slice(2)[0];
 
 if (filename) {
   readFile(filename, 'utf8', (error, data) => {
-    if (error)throw error;
+    if (error) throw error;
     console.log(data);
   });
 }
